@@ -121,6 +121,7 @@
   position: absolute;
   left: 64px;
   top: 164px;
+  border-radius: 10px
 }
 
 .ad1::before {
@@ -188,6 +189,7 @@
   position: absolute;
   left: 736px;
   top: 164px;
+  border-radius: 10px
 }
 
 .box-1 {
@@ -200,7 +202,6 @@
   border: none;
   border-radius: 11px;
 }
-
 
 .o {
   width: 16px;
@@ -255,25 +256,106 @@
   color: #90a3bf;
 }
 
-.fa-solid{
-      position: absolute;
-    top: 91px;
-    left: 158px;
+.fa-solid {
+  position: absolute;
+  top: 91px;
+  left: 158px;
 }
 
-.fa-solid:hover{
+.fa-solid:hover {
   opacity: 0.5;
 }
 
-.line1{
- height: 67px;
-    position: absolute;
-    top: 51px;
-    left: 217px;
-    border: 1px solid #C3D4E9;
-    opacity: 0.3;
+.line1 {
+  height: 67px;
+  position: absolute;
+  top: 51px;
+  left: 217px;
+  border: 1px solid #c3d4e9;
+  opacity: 0.3;
 }
 
-.line1:hover{
+.line1:hover {
   color: rgb(214, 223, 241);
+}
+
+/* date */
+
+.date {
+  height: 15px;
+  font-size: 16px;
+  position: absolute;
+  left: 248px;
+  top: 63px;
+  font-weight: bold;
+}
+
+.dat {
+  width: 104px;
+  height: 24px;
+  font-size: 12px;
+  position: absolute;
+  top: 92px;
+  left: 249px;
+  color: #90a3bf;
+}
+
+.git{
+   position: absolute;
+  top: 91px;
+  left: 345px;
+}
+
+.git:hover{
+  opacity: 0.5;
+}
+
+.line2{
+  height: 67px;
+  position: absolute;
+  top: 51px;
+  left: 409px;
+  border: 1px solid #c3d4e9;
+  opacity: 0.3;
+}
+
+/* time */
+
+.time{
+  height: 15px;
+  font-size: 16px;
+  position: absolute;
+  left: 441px;
+  top: 63px;
+  font-weight: bold;
+}
+
+.ti{
+  width: 104px;
+  height: 24px;
+  font-size: 12px;
+  position: absolute;
+  top: 92px;
+  left: 440px;
+  color: #90a3bf;
+}
+
+.arr{
+  position: absolute;
+  top: 91px;
+  left: 534px;
+}
+
+.btn-bg{
+  width: 60px;
+  height: 60px;
+  background-color: #3563E9;
+  border-radius: 10px;
+  position: absolute;
+  left: 690px;
+  top: 600px;
+}
+
+.up-down{
+  height: 20px;
 }
