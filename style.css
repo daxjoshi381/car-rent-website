@@ -200,7 +200,7 @@
   left: 64px;
   top: 564px;
   border: none;
-  border-radius: 11px;
+  border-radius: 10px;
 }
 
 .o {
@@ -356,6 +356,153 @@
   top: 600px;
 }
 
-.up-down{
-  height: 20px;
+
+.fa-up-down{
+  position: absolute;
+    left: 20px;
+    top: 22px;
+    color: white;
+
 }
+
+.btn-bg:hover{
+  background-color: #0a3ed9;
+}
+
+/* box2 */
+
+.box-2{
+  width: 582px;
+  height: 136px;
+  background-color: white;
+  position: absolute;
+  left: 794px;
+  top: 564px;
+  border: none;
+  border-radius: 10px;
+}
+
+.drop{
+  width: 80px;
+  height: 20px;
+  position: relative;
+  left: 78px;
+  top: 27px;
+  font-size: 16px;
+}
+
+.popular-car-rant{
+  width: 1312px;
+    height: 452px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 732px;
+    left: 51px;
+
+}
+
+.Popular{
+  width: 132px;
+  height: 44px;
+  display: flex;
+  gap: 8px;
+  padding: 20px;
+  color: #90A3BF;
+}
+
+.Popular:hover{
+  color: #a4bde4;
+}
+
+
+
+.view{
+  width: 104px;
+  height: 44px;
+  position: absolute;
+  left: 1261px;
+  top: 20px;
+  /* padding: 20px; */
+  text-decoration: none;
+}
+
+.view:hover{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
