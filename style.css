@@ -793,7 +793,7 @@
   height: 44px;
   position: absolute;
   left: 642px;
-  top: 2160px;
+  top: 2135px;
   display: flex;
   gap: 438px;
 }
@@ -832,3 +832,183 @@
  color: #90A3BF;
 
 }
+
+
+/* footer */
+
+footer{
+   width: 1440px;
+   height: 463px;
+   background-color: #ffffff;
+   position: absolute;
+   top: 2244px;
+  
+  
+}
+
+.logo-footer{
+  width: 292px;
+  height: 108px;
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  left: 60px;
+  top: 80px;
+}
+
+.log{
+  width: 148px;
+  height: 44px;
+  color: #3563E9;
+  font-size: 32px;
+}
+
+.vision{
+  width: 292px;
+  height: 48px;
+  position: absolute;
+  top: 60px;
+  font-size: 16px;
+  color: #13131396;
+}
+
+
+/* line */
+
+.line{
+  width: 1320px;
+  height: 0;
+  position: absolute;
+  left: 60px;
+  top: 360px;
+  color: #13131396;
+  border: 1px solid;
+  opacity: 16%;
+}
+
+/* about */
+
+.about{
+  width: 152px;
+  height: 244px;
+  position: absolute;
+  left: 804px;
+  top: 80px;
+}
+
+.title{
+  width: 152px;
+  height: 32px;
+  font-size: 20px;
+  color: #1A202C;
+  /* position: absolute;
+  left: 804px;
+  top: 80px; */
+}
+
+.footer-links{
+  width: 152px;
+    height: 168px;
+    display: grid;
+    justify-content: space-evenly;
+    position: absolute;
+    left: -18px;
+    top: 61px;
+    color: #13131396;
+    opacity: 60%;
+}
+
+
+/* community */
+
+.community{
+  width: 152px;
+  height: 244px;
+  position: absolute;
+  left: 1016px;
+  top: 80px;
+}
+
+.community-link{
+   width: 152px;
+    height: 168px;
+    display: grid;
+    justify-content: space-evenly;
+    position: absolute;
+    left: -25px;
+    top: 61px;
+    color: #13131396;
+    opacity: 60%;
+}
+
+
+/* socials */
+
+.socials{
+   width: 152px;
+  height: 244px;
+  position: absolute;
+  left: 1228px;
+  top: 80px;
+}
+
+.socials-link{
+    width: 152px;
+    height: 168px;
+    display: grid;
+    justify-content: space-evenly;
+    position: absolute;
+    left: -42px;
+    top: 61px;
+    color: #13131396;
+    opacity: 60%;
+}
+
+
+/* Privacy & Policy */
+
+.privacy-policy{
+  width: 144px;
+  height: 24px;
+  color: #1A202C;
+  position: absolute;
+  left: 1032px;
+  top: 396px;
+  font-size: 16px;
+  font-weight: 150px;
+}
+
+
+/* terms-condition */
+
+.terms-condition{
+   width: 144px;
+  height: 24px;
+  color: #1A202C;
+  position: absolute;
+  left: 1236px;
+  top: 396px;
+  font-size: 16px;
+  font-weight: 150px;
+}
+
+/*  reserved */
+
+.reserved{
+  width: 292px;
+  height: 24px;
+ color: #1A202C;
+ position: absolute;
+ left: 60px;
+ top: 396px;
+ font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
