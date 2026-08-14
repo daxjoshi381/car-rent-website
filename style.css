@@ -121,7 +121,7 @@
   position: absolute;
   left: 64px;
   top: 164px;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .ad1::before {
@@ -189,7 +189,7 @@
   position: absolute;
   left: 736px;
   top: 164px;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .box-1 {
@@ -300,17 +300,17 @@
   color: #90a3bf;
 }
 
-.git{
-   position: absolute;
+.git {
+  position: absolute;
   top: 91px;
   left: 345px;
 }
 
-.git:hover{
+.git:hover {
   opacity: 0.5;
 }
 
-.line2{
+.line2 {
   height: 67px;
   position: absolute;
   top: 51px;
@@ -321,7 +321,7 @@
 
 /* time */
 
-.time{
+.time {
   height: 15px;
   font-size: 16px;
   position: absolute;
@@ -330,7 +330,7 @@
   font-weight: bold;
 }
 
-.ti{
+.ti {
   width: 104px;
   height: 24px;
   font-size: 12px;
@@ -340,38 +340,36 @@
   color: #90a3bf;
 }
 
-.arr{
+.arr {
   position: absolute;
   top: 91px;
   left: 534px;
 }
 
-.btn-bg{
+.btn-bg {
   width: 60px;
   height: 60px;
-  background-color: #3563E9;
+  background-color: #3563e9;
   border-radius: 10px;
   position: absolute;
   left: 690px;
   top: 600px;
 }
 
-
-.fa-up-down{
+.fa-up-down {
   position: absolute;
-    left: 20px;
-    top: 22px;
-    color: white;
-
+  left: 20px;
+  top: 22px;
+  color: white;
 }
 
-.btn-bg:hover{
+.btn-bg:hover {
   background-color: #0a3ed9;
 }
 
 /* box2 */
 
-.box-2{
+.box-2 {
   width: 582px;
   height: 136px;
   background-color: white;
@@ -382,7 +380,7 @@
   border-radius: 10px;
 }
 
-.drop{
+.drop {
   width: 80px;
   height: 20px;
   position: relative;
@@ -391,118 +389,368 @@
   font-size: 16px;
 }
 
-.popular-car-rant{
-  width: 1312px;
-    height: 452px;
-    display: flex;
-    gap: 20px;
-    position: absolute;
-    top: 732px;
-    left: 51px;
+/* popular-car-rant */
 
+.popular-car-rant {
+  width: 1312px;
+  height: 452px;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 732px;
+  left: 51px;
+   
 }
 
-.Popular{
+.Popular {
   width: 132px;
   height: 44px;
   display: flex;
   gap: 8px;
-  padding: 20px;
-  color: #90A3BF;
+  color: #90a3bf;
+  position: absolute;
+    left: 48px;
+    top: 10px;
 }
 
-.Popular:hover{
+.Popular:hover {
   color: #a4bde4;
 }
 
-
-
-.view{
+.view {
   width: 104px;
   height: 44px;
   position: absolute;
   left: 1261px;
-  top: 20px;
-  /* padding: 20px; */
+  top: 10px;
+  /* top: 20px; */
   text-decoration: none;
 }
 
-.view:hover{
+.view:hover {
   opacity: 0.5;
+}
+
+.popular-car {
+  width: 1312px;
+  height: 388px;
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+/* catalog1 */
+
+.catalog1 {
+  width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.car-name {
+  width: 128px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a202c;
+  padding: 25px;
+}
+
+.car-mood {
+  width: 128px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #90a3bf;
+  position: absolute;
+  top: 28px;
+  padding: 25px;
+}
+
+.car-img {
+  width: 232px;
+  height: 72px;
+  position: absolute;
+  left: 36px;
+  top: 136px;
+}
+
+.shadow {
+  position: absolute;
+  width: 304px;
+  height: 68px;
+  left: 0px;
+  top: 185px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+}
+
+.specifications {
+  width: 256px;
+  height: 24px;
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  left: 24px;
+  top: 272px;
+  color: #90a3bf;
+}
+
+/* gasoline */
+
+.gasoline {
+  width: 58px;
+  height: 24px;
+  display: flex;
+  gap: 6px;
+}
+
+.gas {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.gas-li {
+  width: 28px;
+  height: 24px;
+  position: absolute;
+  left: 23px;
+  top: -2px;
+}
+
+/* car-mod */
+
+.car-mod {
+  width: 76px;
+  height: 24px;
+  display: flex;
+  gap: 4px;
+  position: absolute;
+  left: 74px;
+}
+
+.ro {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+}
+
+.ro-ma {
+  width: 28px;
+  height: 24px;
+  position: absolute;
+  left: 21px;
+  top: -2px;
+}
+
+/* capacity */
+
+.capacity {
+  width: 90px;
+  height: 24px;
+  display: flex;
+  gap: 6;
+  position: absolute;
+  left: 166px;
+}
+
+.user {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -3px;
+}
+
+.capacity-pe {
+  width: 60px;
+  height: 24px;
+  position: absolute;
+  left: 26px;
+}
+
+.price {
+  width: 116px;
+  height: 44px;
+  position: absolute;
+  top: 330px;
+  left: 28px;
+}
+
+.day {
+  color: #90a3bf;
+}
+
+.ren-now {
+  width: 116px;
+  height: 44px;
+  padding: 20px;
+  position: absolute;
+  top: 320px;
+  left: 164px;
+  background-color: #3563e9;
+  border: none;
+  border-radius: 4px;
+  color: #f6f7f9;
+}
+
+.ren-now:hover {
+  background-color: #073cdc;
+}
+
+.now {
+  position: absolute;
+  left: 26px;
+  top: 15px;
+}
+
+/* catalog2 */
+
+.catalog2 {
+  width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 336px;
+  top: 0;
+}
+
+.offer{
+  text-decoration: line-through;
+  color: #90a3bf;
+}
+
+
+/* catalog3 */
+
+.catalog3 {
+  width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 672px;
+  top: 0;
+}
+
+
+/* catalog4 */
+
+.catalog4 {
+  width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 1008px;
+  top: 0;
+}
+
+
+/* Recomendation-car */
+
+.recomendation-car-rent{
+  width: 1312px;
+    height: 872px;
+    position: absolute;     
+    top: 1216px;
+    left: 56px;
+    margin-top: 0;
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid; */
+}
+
+.rce{
+  width: 196px;
+  height: 44px;
+  display: flex;
+  gap: 8px;
+  padding: 20px;
+}
+
+.recom-car{
+  width: 156px;
+  height: 24px;
+  font-size: 16px;
+  position: absolute;
+  left: 20px;
+}
+
+
+.recomendation-car{
+  width: 1312px;
+  height: 808px;
+  position: absolute;
+  top: 64px;
+  display: flex;
+  gap: 32px;
+  
+
+}
+
+.recomendation1{
+  width: 1312px;
+  height: 388px;
+  display: flex;
+  gap: 32px;
+}
+ 
+/* box 1 */
+.rush{
+      width: 224px;
+    height: 100px;
+    position: absolute;
+    left: 40px;
+    top: 122px;
+}
+
+/* box2 */
+
+.cr{
+  width: 248px;
+    height: 100px;
+    position: absolute;
+    left: 28px;
+    top: 122px;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.recomendation2{
+  width: 1312px;
+  height: 388px;
+  position: absolute;
+  top: 420px;
+  display: flex;
+  gap: 32px;
+}
+
+
+.mg{
+  width: 264px;
+  height: 108px;
+  position: absolute;
+  left: 24px;
+  top: 118px;
+}
+
+.mg-car{
+  width: 160px;
+  height: 24px;
+  font-size: 20px;
+}
+/* box2 */
+.zs{
+ width: 288px;
+ height: 112px;
+ position: absolute;
+ left: 8px;
+ top: 116px;
+}
