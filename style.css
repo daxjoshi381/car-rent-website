@@ -154,7 +154,7 @@
   margin: 27px;
   position: absolute;
   top: 95px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .Ren-Car {
@@ -190,6 +190,22 @@
   left: 736px;
   top: 164px;
   border-radius: 10px;
+  background-image: url("2.png");
+  background-size: cover;
+}
+
+.rc{
+  background-color: #54A6FF;
+}
+
+
+.img8{
+  width: 340px;
+  height: 108px;
+  position: absolute;
+  left: 187px;
+  top: 232px;
+
 }
 
 
@@ -754,16 +770,65 @@
   color: red;
 }
 
-.heart:hover{
+.heart:hover {
   opacity: 0.6;
 }
 
-.hea{
+.hea {
   position: absolute;
   top: 29px;
   left: 274px;
+  -webkit-text-stroke: 1px #90A3BF;
 }
 
-.hea:hover{
+.hea:hover {
   opacity: 0.3;
+}
+
+
+/* show more */
+
+.show{
+  width: 734px;
+  height: 44px;
+  position: absolute;
+  left: 642px;
+  top: 2160px;
+  display: flex;
+  gap: 438px;
+}
+
+.show-more{
+  width: 156px;
+  height: 44px;
+  display: flex;
+  gap: 8px;
+  background-color: #3563E9;
+  color: white;
+   border-radius: 4px;
+       border: none;
+}
+
+.show-more:hover{
+  background-color:#194fef ;
+}
+
+
+
+.more-car{
+  width: 116px;
+  height: 24px;
+  position: absolute;
+  left: 20px;
+  top: 14px;
+}
+
+.num-car{
+ width: 140px;
+ height: 24px;
+ position: absolute;
+ left: 675px;
+ top: 10px;
+ color: #90A3BF;
+
 }
