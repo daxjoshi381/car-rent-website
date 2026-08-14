@@ -109,7 +109,7 @@
 /* content */
 
 .content {
-  width: 1493px;
+  width: 1513px;
   height: 2120px;
   background-color: #f6f7f9;
 }
@@ -191,6 +191,8 @@
   top: 164px;
   border-radius: 10px;
 }
+
+
 
 .box-1 {
   width: 582px;
@@ -399,7 +401,6 @@
   position: absolute;
   top: 732px;
   left: 51px;
-   
 }
 
 .Popular {
@@ -409,8 +410,8 @@
   gap: 8px;
   color: #90a3bf;
   position: absolute;
-    left: 48px;
-    top: 10px;
+  left: 48px;
+  top: 10px;
 }
 
 .Popular:hover {
@@ -619,11 +620,10 @@
   top: 0;
 }
 
-.offer{
+.offer {
   text-decoration: line-through;
   color: #90a3bf;
 }
-
 
 /* catalog3 */
 
@@ -637,7 +637,6 @@
   top: 0;
 }
 
-
 /* catalog4 */
 
 .catalog4 {
@@ -650,22 +649,21 @@
   top: 0;
 }
 
-
 /* Recomendation-car */
 
-.recomendation-car-rent{
+.recomendation-car-rent {
   width: 1312px;
-    height: 872px;
-    position: absolute;     
-    top: 1216px;
-    left: 56px;
-    margin-top: 0;
-    display: flex;
-    gap: 20px;
-    /* border: 2px solid; */
+  height: 872px;
+  position: absolute;
+  top: 1216px;
+  left: 56px;
+  margin-top: 0;
+  display: flex;
+  gap: 20px;
+  /* border: 2px solid; */
 }
 
-.rce{
+.rce {
   width: 196px;
   height: 44px;
   display: flex;
@@ -673,7 +671,7 @@
   padding: 20px;
 }
 
-.recom-car{
+.recom-car {
   width: 156px;
   height: 24px;
   font-size: 16px;
@@ -681,49 +679,42 @@
   left: 20px;
 }
 
-
-.recomendation-car{
+.recomendation-car {
   width: 1312px;
   height: 808px;
   position: absolute;
   top: 64px;
   display: flex;
   gap: 32px;
-  
-
 }
 
-.recomendation1{
+.recomendation1 {
   width: 1312px;
   height: 388px;
   display: flex;
   gap: 32px;
 }
- 
+
 /* box 1 */
-.rush{
-      width: 224px;
-    height: 100px;
-    position: absolute;
-    left: 40px;
-    top: 122px;
+.rush {
+  width: 224px;
+  height: 100px;
+  position: absolute;
+  left: 40px;
+  top: 122px;
 }
 
 /* box2 */
 
-.cr{
+.cr {
   width: 248px;
-    height: 100px;
-    position: absolute;
-    left: 28px;
-    top: 122px;
+  height: 100px;
+  position: absolute;
+  left: 28px;
+  top: 122px;
 }
 
-
-
-
-
-.recomendation2{
+.recomendation2 {
   width: 1312px;
   height: 388px;
   position: absolute;
@@ -732,8 +723,7 @@
   gap: 32px;
 }
 
-
-.mg{
+.mg {
   width: 264px;
   height: 108px;
   position: absolute;
@@ -741,16 +731,39 @@
   top: 118px;
 }
 
-.mg-car{
+.mg-car {
   width: 160px;
   height: 24px;
   font-size: 20px;
 }
 /* box2 */
-.zs{
- width: 288px;
- height: 112px;
- position: absolute;
- left: 8px;
- top: 116px;
+.zs {
+  width: 288px;
+  height: 112px;
+  position: absolute;
+  left: 8px;
+  top: 116px;
+}
+
+/* heart */
+
+.heart {
+  width: 255px;
+  position: absolute;
+  top: 27px;
+  color: red;
+}
+
+.heart:hover{
+  opacity: 0.6;
+}
+
+.hea{
+  position: absolute;
+  top: 29px;
+  left: 274px;
+}
+
+.hea:hover{
+  opacity: 0.3;
 }
