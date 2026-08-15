@@ -1,10 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
+
+
 .nav-bar {
-  width: 1493px;
+  width: 1440px;
   height: 124px;
 }
 /* logo */
@@ -13,7 +16,7 @@
   width: 148px;
   height: 44px;
   font-size: 32px;
-  font-weight: Bold;
+  font-weight: bold;
   color: #3563e9;
   position: absolute;
   left: 60px;
@@ -85,7 +88,7 @@
   width: 236px;
   height: 44px;
   position: absolute;
-  left: 1236px;
+  left: 1172px;
   top: 40px;
   display: flex;
   gap: 20px;
@@ -99,9 +102,7 @@
   border: none;
 }
 
-.imgg:hover {
-  opacity: 0.8;
-
+.imgg:hover { 
   border: 1px solid black;
   border-radius: 50%;
 }
@@ -109,9 +110,11 @@
 /* content */
 
 .content {
-  width: 1513px;
+  width: 1440px;
   height: 2120px;
   background-color: #f6f7f9;
+  position: absolute;
+  top: 124px;
 }
 
 .ad1 {
@@ -120,7 +123,7 @@
   background-color: #54a6ff;
   position: absolute;
   left: 64px;
-  top: 164px;
+  top: 32px;
   border-radius: 10px;
 }
 
@@ -188,7 +191,7 @@
   background-color: #3563e9;
   position: absolute;
   left: 736px;
-  top: 164px;
+  top: 32px;
   border-radius: 10px;
   background-image: url("2.png");
   background-size: cover;
@@ -212,11 +215,11 @@
 
 .box-1 {
   width: 582px;
-  height: 136px;
+  height: 132px;
   background-color: white;
   position: absolute;
   left: 64px;
-  top: 564px;
+  top: 424px;
   border: none;
   border-radius: 10px;
 }
@@ -371,7 +374,7 @@
   border-radius: 10px;
   position: absolute;
   left: 690px;
-  top: 600px;
+  top: 460px;
 }
 
 .fa-up-down {
@@ -389,11 +392,11 @@
 
 .box-2 {
   width: 582px;
-  height: 136px;
+  height: 132px;
   background-color: white;
   position: absolute;
   left: 794px;
-  top: 564px;
+  top: 424px;
   border: none;
   border-radius: 10px;
 }
@@ -407,6 +410,20 @@
   font-size: 16px;
 }
 
+
+/* car-shop */
+
+.car-shop{
+  width: 1312px;
+  height: 1356px;
+  display: flex;
+  gap: 32px;
+  position: absolute;
+  left: 64px;
+  top: 592px;
+  /* border: 2px solid; */
+}
+
 /* popular-car-rant */
 
 .popular-car-rant {
@@ -414,33 +431,43 @@
   height: 452px;
   display: flex;
   gap: 20px;
-  position: absolute;
-  top: 732px;
-  left: 51px;
+
 }
 
+
+
+
 .Popular {
-  width: 132px;
-  height: 44px;
-  display: flex;
-  gap: 8px;
-  color: #90a3bf;
-  position: absolute;
-  left: 48px;
-  top: 10px;
+      width: 92px;
+    height: 24px;
+    display: flex;
+    gap: 8px;
+    color: #90a3bf;
+    position: absolute;
+    top: 10px;
+    left: 20px;
 }
 
 .Popular:hover {
   color: #a4bde4;
 }
 
-.view {
+.view-more{
   width: 104px;
   height: 44px;
+  padding: 20px;
+  display: flex;
+  gap: 8px;
   position: absolute;
-  left: 1261px;
+  left: 1208px;
+}
+
+.view {
+  width: 64px;
+  height: 24px;
+  position: absolute;
+  left: 20px;
   top: 10px;
-  /* top: 20px; */
   text-decoration: none;
 }
 
@@ -448,12 +475,15 @@
   opacity: 0.5;
 }
 
+
+
 .popular-car {
   width: 1312px;
   height: 388px;
+  display: flex;
+  gap: 20px;
   position: absolute;
-  left: 20px;
-  top: 50px;
+  top: 64px;
 }
 
 /* catalog1 */
@@ -633,7 +663,7 @@
   background-color: #ffffff;
   position: absolute;
   left: 336px;
-  top: 0;
+  
 }
 
 .offer {
@@ -650,7 +680,6 @@
   background-color: #ffffff;
   position: absolute;
   left: 672px;
-  top: 0;
 }
 
 /* catalog4 */
@@ -662,7 +691,6 @@
   background-color: #ffffff;
   position: absolute;
   left: 1008px;
-  top: 0;
 }
 
 /* Recomendation-car */
@@ -671,9 +699,7 @@
   width: 1312px;
   height: 872px;
   position: absolute;
-  top: 1216px;
-  left: 56px;
-  margin-top: 0;
+  top: 484px;
   display: flex;
   gap: 20px;
   /* border: 2px solid; */
@@ -693,6 +719,7 @@
   font-size: 16px;
   position: absolute;
   left: 20px;
+  top: 10px;
 }
 
 .recomendation-car {
@@ -764,9 +791,11 @@
 /* heart */
 
 .heart {
-  width: 255px;
+  width: 20px;
+  height: 17.8px;
   position: absolute;
-  top: 27px;
+  left: 260px;
+    top: 28px;
   color: red;
 }
 
@@ -776,8 +805,8 @@
 
 .hea {
   position: absolute;
-  top: 29px;
-  left: 274px;
+  left: 260px;
+    top: 28px;
   -webkit-text-stroke: 1px #90A3BF;
 }
 
@@ -793,7 +822,7 @@
   height: 44px;
   position: absolute;
   left: 642px;
-  top: 2135px;
+  top: 2012px;
   display: flex;
   gap: 438px;
 }
@@ -804,6 +833,7 @@
   display: flex;
   gap: 8px;
   background-color: #3563E9;
+  padding: 20px;
   color: white;
    border-radius: 4px;
        border: none;
@@ -820,7 +850,7 @@
   height: 24px;
   position: absolute;
   left: 20px;
-  top: 14px;
+  top: 10px;
 }
 
 .num-car{
@@ -838,7 +868,7 @@
 
 footer{
    width: 1440px;
-   height: 463px;
+   height: 480px;
    background-color: #ffffff;
    position: absolute;
    top: 2244px;
@@ -901,9 +931,7 @@ footer{
   height: 32px;
   font-size: 20px;
   color: #1A202C;
-  /* position: absolute;
-  left: 804px;
-  top: 80px; */
+  
 }
 
 .footer-links{
@@ -1003,12 +1031,4 @@ footer{
  top: 396px;
  font-size: 16px;
 }
-
-
-
-
-
-
-
-
 
