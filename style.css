@@ -4,16 +4,11 @@
   
 }
 
-.page{
-/* 
-position: relative;
-width: 1440px;
-height: 2724px; */
 
 
 
   
-}
+
 
 .nav-bar {
   width: 1440px;
@@ -30,6 +25,7 @@ height: 2724px; */
   position: absolute;
   left: 60px;
   top: 40px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* search */
@@ -152,30 +148,50 @@ height: 2724px; */
   );
 }
 
+
+.ads {
+    width: 284px;
+    height: 224px;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ad-p{
+      width: 284px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .ad {
-  width: 272px;
-  height: 96px;
-  color: white;
-  margin: 26px;
+  width: 327px;
+    height: 96px;
+    margin: 0;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px;
 }
 
 .ad-ti {
   width: 284px;
-  height: 48px;
-  color: white;
-  margin: 27px;
-  position: absolute;
-  top: 95px;
-  font-size: 19px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .Ren-Car {
   width: 120px;
   height: 44px;
-  padding: 10px;
-  position: inherit;
-  top: 183px;
-  left: 24px;
+  padding: 20px;
+  position: absolute;
+  top: 180px;
   background-color: #3563e9;
   border: none;
   border-radius: 8px;
@@ -184,6 +200,14 @@ height: 2724px; */
 
 .Ren-Car:hover {
   background-color: #174ef5;
+}
+
+.rental-car{
+  width: 80px;
+  height: 24px;
+  position: absolute;
+  left: 20px;
+  top: 14px;
 }
 
 .img7 {
@@ -265,6 +289,8 @@ height: 2724px; */
   left: 78px;
   top: 27px;
   font-size: 16px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+
 }
 
 .loctions {
@@ -274,6 +300,7 @@ height: 2724px; */
   left: 63px;
   top: 63px;
   font-weight: bold;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .ser {
@@ -284,6 +311,7 @@ height: 2724px; */
   top: 91px;
   left: 65px;
   color: #90a3bf;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .fa-solid {
@@ -318,6 +346,7 @@ height: 2724px; */
   left: 248px;
   top: 63px;
   font-weight: bold;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .dat {
@@ -328,6 +357,7 @@ height: 2724px; */
   top: 92px;
   left: 249px;
   color: #90a3bf;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .git {
@@ -358,6 +388,7 @@ height: 2724px; */
   left: 441px;
   top: 63px;
   font-weight: bold;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .ti {
@@ -368,6 +399,7 @@ height: 2724px; */
   top: 92px;
   left: 440px;
   color: #90a3bf;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .arr {
@@ -417,6 +449,7 @@ height: 2724px; */
   left: 78px;
   top: 27px;
   font-size: 16px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 
@@ -455,6 +488,7 @@ height: 2724px; */
     position: absolute;
     top: 10px;
     left: 20px;
+     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .Popular:hover {
@@ -478,6 +512,7 @@ height: 2724px; */
   left: 20px;
   top: 10px;
   text-decoration: none;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .view:hover {
@@ -505,12 +540,13 @@ height: 2724px; */
 }
 
 .car-name {
-  width: 128px;
+  width: 140px;
   height: 24px;
   font-size: 20px;
   font-weight: bold;
   color: #1a202c;
   padding: 25px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .car-mood {
@@ -522,6 +558,7 @@ height: 2724px; */
   position: absolute;
   top: 28px;
   padding: 25px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .car-img {
@@ -575,6 +612,7 @@ height: 2724px; */
   position: absolute;
   left: 23px;
   top: -2px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* car-mod */
@@ -601,6 +639,7 @@ height: 2724px; */
   position: absolute;
   left: 21px;
   top: -2px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* capacity */
@@ -622,10 +661,11 @@ height: 2724px; */
 }
 
 .capacity-pe {
-  width: 60px;
+  width: 65px;
   height: 24px;
   position: absolute;
   left: 26px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .price {
@@ -634,6 +674,7 @@ height: 2724px; */
   position: absolute;
   top: 330px;
   left: 28px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .day {
@@ -651,6 +692,7 @@ height: 2724px; */
   border: none;
   border-radius: 4px;
   color: #f6f7f9;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .ren-now:hover {
@@ -784,7 +826,7 @@ height: 2724px; */
 }
 
 .mg-car {
-  width: 160px;
+  width: 165px;
   height: 24px;
   font-size: 20px;
 }
@@ -834,6 +876,7 @@ height: 2724px; */
   top: 2012px;
   display: flex;
   gap: 438px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .show-more{
@@ -860,6 +903,7 @@ height: 2724px; */
   position: absolute;
   left: 20px;
   top: 10px;
+   
 }
 
 .num-car{
@@ -881,6 +925,7 @@ footer{
    background-color: #ffffff;
    position: absolute;
    top: 2244px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
   
   
 }
