@@ -55,6 +55,9 @@
   height: 24px;
   width: 24px;
   opacity: 2.5;
+  position: absolute;
+    left: -3px;
+    top: -1px;
 }
 
 .btn:hover .shr {
@@ -69,6 +72,7 @@
   top: 10px;
   border: none;
   outline: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .btn2 {
@@ -83,7 +87,7 @@
   opacity: 1.5;
 }
 
-.btn2:hover .shr2 {
+.btn2:hover .shr {
   opacity: 0.5;
 }
 
@@ -902,7 +906,7 @@
   height: 24px;
   position: absolute;
   left: 20px;
-  top: 10px;
+  top: 14px;
    
 }
 
