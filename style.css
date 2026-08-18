@@ -9,6 +9,7 @@
     width: 1440px;
     transform: scale(1.0385);
     transform-origin: top left;
+     font-family: "Plus Jakarta Sans", sans-serif;
 }
  
 
@@ -23,7 +24,6 @@
   position: absolute;
   left: 60px;
   top: 40px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* search */
@@ -70,7 +70,6 @@
   top: 10px;
   border: none;
   outline: none;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .btn2 {
@@ -176,7 +175,6 @@
   height: 96px;
   margin: 0;
   color: white;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 32px;
 }
 
@@ -185,7 +183,7 @@
   height: 48px;
   color: white;
   font-size: 16px;
-  font-family: "Plus Jakarta Sans", sans-serif;
+ 
 }
 
 .Ren-Car {
@@ -287,7 +285,7 @@
   left: 78px;
   top: 27px;
   font-size: 16px;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  
 }
 
 .loctions {
@@ -297,7 +295,6 @@
   left: 63px;
   top: 63px;
   font-weight: bold;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .ser {
@@ -308,7 +305,6 @@
   top: 91px;
   left: 65px;
   color: #90a3bf;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .fa-solid {
@@ -343,7 +339,7 @@
   left: 248px;
   top: 63px;
   font-weight: bold;
-  font-family: "Plus Jakarta Sans", sans-serif;
+
 }
 
 .dat {
@@ -354,7 +350,6 @@
   top: 92px;
   left: 249px;
   color: #90a3bf;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .git {
@@ -385,7 +380,6 @@
   left: 441px;
   top: 63px;
   font-weight: bold;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .ti {
@@ -396,7 +390,6 @@
   top: 92px;
   left: 440px;
   color: #90a3bf;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .arr {
@@ -446,7 +439,6 @@
   left: 78px;
   top: 27px;
   font-size: 16px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* car-shop */
@@ -459,7 +451,6 @@
   position: absolute;
   left: 64px;
   top: 592px;
-  /* border: 2px solid; */
 }
 
 /* popular-car-rant */
@@ -480,7 +471,6 @@
   position: absolute;
   top: 10px;
   left: 20px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .Popular:hover {
@@ -504,7 +494,6 @@
   left: 20px;
   top: 10px;
   text-decoration: none;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .view:hover {
@@ -536,7 +525,6 @@
   font-weight: bold;
   color: #1a202c;
   padding: 25px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .car-mood {
@@ -548,7 +536,6 @@
   position: absolute;
   top: 28px;
   padding: 25px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .car-img {
@@ -602,7 +589,6 @@
   position: absolute;
   left: 23px;
   top: -2px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* car-mod */
@@ -629,7 +615,6 @@
   position: absolute;
   left: 21px;
   top: -2px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* capacity */
@@ -655,7 +640,6 @@
   height: 24px;
   position: absolute;
   left: 26px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .price {
@@ -664,7 +648,6 @@
   position: absolute;
   top: 330px;
   left: 28px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .day {
@@ -682,7 +665,6 @@
   border: none;
   border-radius: 4px;
   color: #f6f7f9;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .ren-now:hover {
@@ -865,7 +847,6 @@
   top: 2012px;
   display: flex;
   gap: 438px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .show-more {
@@ -909,7 +890,6 @@ footer {
   background-color: #ffffff;
   position: absolute;
   top: 2244px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .logo-footer {
