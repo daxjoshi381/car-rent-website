@@ -1,19 +1,17 @@
 * {
-  margin: 0;
-  padding: 0;
-  
+  margin: 0px;
+  padding: 0px;
 }
 
 
 
-
-  
-
-
-.nav-bar {
-  width: 1440px;
-  height: 124px;
+ .page {
+    width: 1440px;
+    transform: scale(1.0385);
+    transform-origin: top left;
 }
+ 
+
 /* logo */
 
 .logo {
@@ -25,7 +23,7 @@
   position: absolute;
   left: 60px;
   top: 40px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* search */
@@ -56,8 +54,8 @@
   width: 24px;
   opacity: 2.5;
   position: absolute;
-    left: -3px;
-    top: -1px;
+  left: -3px;
+  top: -1px;
 }
 
 .btn:hover .shr {
@@ -72,7 +70,7 @@
   top: 10px;
   border: none;
   outline: none;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .btn2 {
@@ -111,7 +109,7 @@
   border: none;
 }
 
-.imgg:hover { 
+.imgg:hover {
   border: 1px solid black;
   border-radius: 50%;
 }
@@ -152,42 +150,41 @@
   );
 }
 
-
 .ads {
-    width: 284px;
-    height: 224px;
-    position: absolute;
-    left: 24px;
-    top: 24px;
+  width: 284px;
+  height: 224px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
 
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.ad-p{
-      width: 284px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+.ad-p {
+  width: 284px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .ad {
   width: 327px;
-    height: 96px;
-    margin: 0;
-    color: white;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 32px;
+  height: 96px;
+  margin: 0;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 32px;
 }
 
 .ad-ti {
   width: 284px;
-    height: 48px;
-    color: white;
-    font-size: 16px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+  height: 48px;
+  color: white;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .Ren-Car {
@@ -206,7 +203,7 @@
   background-color: #174ef5;
 }
 
-.rental-car{
+.rental-car {
   width: 80px;
   height: 24px;
   position: absolute;
@@ -234,21 +231,17 @@
   background-size: cover;
 }
 
-.rc{
-  background-color: #54A6FF;
+.rc {
+  background-color: #54a6ff;
 }
 
-
-.img8{
+.img8 {
   width: 340px;
   height: 108px;
   position: absolute;
   left: 187px;
   top: 232px;
-
 }
-
-
 
 .box-1 {
   width: 582px;
@@ -293,8 +286,7 @@
   left: 78px;
   top: 27px;
   font-size: 16px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
-
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .loctions {
@@ -304,7 +296,7 @@
   left: 63px;
   top: 63px;
   font-weight: bold;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .ser {
@@ -315,7 +307,7 @@
   top: 91px;
   left: 65px;
   color: #90a3bf;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .fa-solid {
@@ -350,7 +342,7 @@
   left: 248px;
   top: 63px;
   font-weight: bold;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .dat {
@@ -361,7 +353,7 @@
   top: 92px;
   left: 249px;
   color: #90a3bf;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .git {
@@ -392,7 +384,7 @@
   left: 441px;
   top: 63px;
   font-weight: bold;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .ti {
@@ -403,7 +395,7 @@
   top: 92px;
   left: 440px;
   color: #90a3bf;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .arr {
@@ -453,13 +445,12 @@
   left: 78px;
   top: 27px;
   font-size: 16px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
-
 
 /* car-shop */
 
-.car-shop{
+.car-shop {
   width: 1312px;
   height: 1356px;
   display: flex;
@@ -477,29 +468,25 @@
   height: 452px;
   display: flex;
   gap: 20px;
-
 }
 
-
-
-
 .Popular {
-      width: 92px;
-    height: 24px;
-    display: flex;
-    gap: 8px;
-    color: #90a3bf;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-     font-family: 'Plus Jakarta Sans', sans-serif;
+  width: 92px;
+  height: 24px;
+  display: flex;
+  gap: 8px;
+  color: #90a3bf;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .Popular:hover {
   color: #a4bde4;
 }
 
-.view-more{
+.view-more {
   width: 104px;
   height: 44px;
   padding: 20px;
@@ -516,14 +503,12 @@
   left: 20px;
   top: 10px;
   text-decoration: none;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .view:hover {
   opacity: 0.5;
 }
-
-
 
 .popular-car {
   width: 1312px;
@@ -550,7 +535,7 @@
   font-weight: bold;
   color: #1a202c;
   padding: 25px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .car-mood {
@@ -562,7 +547,7 @@
   position: absolute;
   top: 28px;
   padding: 25px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .car-img {
@@ -616,7 +601,7 @@
   position: absolute;
   left: 23px;
   top: -2px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* car-mod */
@@ -643,7 +628,7 @@
   position: absolute;
   left: 21px;
   top: -2px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* capacity */
@@ -669,7 +654,7 @@
   height: 24px;
   position: absolute;
   left: 26px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .price {
@@ -678,7 +663,7 @@
   position: absolute;
   top: 330px;
   left: 28px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .day {
@@ -696,7 +681,7 @@
   border: none;
   border-radius: 4px;
   color: #f6f7f9;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .ren-now:hover {
@@ -718,7 +703,6 @@
   background-color: #ffffff;
   position: absolute;
   left: 336px;
-  
 }
 
 .offer {
@@ -850,7 +834,7 @@
   height: 17.8px;
   position: absolute;
   left: 260px;
-    top: 28px;
+  top: 28px;
   color: red;
 }
 
@@ -861,18 +845,17 @@
 .hea {
   position: absolute;
   left: 260px;
-    top: 28px;
-  -webkit-text-stroke: 1px #90A3BF;
+  top: 28px;
+  -webkit-text-stroke: 1px #90a3bf;
 }
 
 .hea:hover {
   opacity: 0.3;
 }
 
-
 /* show more */
 
-.show{
+.show {
   width: 734px;
   height: 44px;
   position: absolute;
@@ -880,61 +863,54 @@
   top: 2012px;
   display: flex;
   gap: 438px;
-   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.show-more{
+.show-more {
   width: 156px;
   height: 44px;
   display: flex;
   gap: 8px;
-  background-color: #3563E9;
+  background-color: #3563e9;
   padding: 20px;
   color: white;
-   border-radius: 4px;
-       border: none;
+  border-radius: 4px;
+  border: none;
 }
 
-.show-more:hover{
-  background-color:#194fef ;
+.show-more:hover {
+  background-color: #194fef;
 }
 
-
-
-.more-car{
+.more-car {
   width: 116px;
   height: 24px;
   position: absolute;
   left: 20px;
   top: 14px;
-   
 }
 
-.num-car{
- width: 140px;
- height: 24px;
- position: absolute;
- left: 675px;
- top: 10px;
- color: #90A3BF;
-
+.num-car {
+  width: 140px;
+  height: 24px;
+  position: absolute;
+  left: 675px;
+  top: 10px;
+  color: #90a3bf;
 }
-
 
 /* footer */
 
-footer{
-   width: 1440px;
-   height: 480px;
-   background-color: #ffffff;
-   position: absolute;
-   top: 2244px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-  
-  
+footer {
+  width: 1440px;
+  height: 480px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 2244px;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.logo-footer{
+.logo-footer {
   width: 292px;
   height: 108px;
   display: flex;
@@ -944,14 +920,14 @@ footer{
   top: 80px;
 }
 
-.log{
+.log {
   width: 148px;
   height: 44px;
-  color: #3563E9;
+  color: #3563e9;
   font-size: 32px;
 }
 
-.vision{
+.vision {
   width: 292px;
   height: 48px;
   position: absolute;
@@ -960,10 +936,9 @@ footer{
   color: #13131396;
 }
 
-
 /* line */
 
-.line{
+.line {
   width: 1320px;
   height: 0;
   position: absolute;
@@ -976,7 +951,7 @@ footer{
 
 /* about */
 
-.about{
+.about {
   width: 152px;
   height: 244px;
   position: absolute;
@@ -984,30 +959,28 @@ footer{
   top: 80px;
 }
 
-.title{
+.title {
   width: 152px;
   height: 32px;
   font-size: 20px;
-  color: #1A202C;
-  
+  color: #1a202c;
 }
 
-.footer-links{
+.footer-links {
   width: 152px;
-    height: 168px;
-    display: grid;
-    justify-content: space-evenly;
-    position: absolute;
-    left: -18px;
-    top: 61px;
-    color: #13131396;
-    opacity: 60%;
+  height: 168px;
+  display: grid;
+  justify-content: space-evenly;
+  position: absolute;
+  left: -13px;
+  top: 61px;
+  color: #13131396;
+  opacity: 60%;
 }
-
 
 /* community */
 
-.community{
+.community {
   width: 152px;
   height: 244px;
   position: absolute;
@@ -1015,48 +988,46 @@ footer{
   top: 80px;
 }
 
-.community-link{
-   width: 152px;
-    height: 168px;
-    display: grid;
-    justify-content: space-evenly;
-    position: absolute;
-    left: -25px;
-    top: 61px;
-    color: #13131396;
-    opacity: 60%;
+.community-link {
+  width: 152px;
+  height: 168px;
+  display: grid;
+  justify-content: space-evenly;
+  position: absolute;
+  left: -28px;
+  top: 61px;
+  color: #13131396;
+  opacity: 60%;
 }
-
 
 /* socials */
 
-.socials{
-   width: 152px;
+.socials {
+  width: 152px;
   height: 244px;
   position: absolute;
   left: 1228px;
   top: 80px;
 }
 
-.socials-link{
-    width: 152px;
-    height: 168px;
-    display: grid;
-    justify-content: space-evenly;
-    position: absolute;
-    left: -42px;
-    top: 61px;
-    color: #13131396;
-    opacity: 60%;
+.socials-link {
+  width: 152px;
+  height: 168px;
+  display: grid;
+  justify-content: space-evenly;
+  position: absolute;
+  left: -42px;
+  top: 61px;
+  color: #13131396;
+  opacity: 60%;
 }
-
 
 /* Privacy & Policy */
 
-.privacy-policy{
+.privacy-policy {
   width: 144px;
   height: 24px;
-  color: #1A202C;
+  color: #1a202c;
   position: absolute;
   left: 1032px;
   top: 396px;
@@ -1064,13 +1035,12 @@ footer{
   font-weight: 150px;
 }
 
-
 /* terms-condition */
 
-.terms-condition{
-   width: 144px;
+.terms-condition {
+  width: 144px;
   height: 24px;
-  color: #1A202C;
+  color: #1a202c;
   position: absolute;
   left: 1236px;
   top: 396px;
@@ -1080,13 +1050,12 @@ footer{
 
 /*  reserved */
 
-.reserved{
+.reserved {
   width: 292px;
   height: 24px;
- color: #1A202C;
- position: absolute;
- left: 60px;
- top: 396px;
- font-size: 16px;
+  color: #1a202c;
+  position: absolute;
+  left: 60px;
+  top: 396px;
+  font-size: 16px;
 }
-
